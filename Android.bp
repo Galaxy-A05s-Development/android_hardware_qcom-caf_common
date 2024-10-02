@@ -147,7 +147,7 @@ install_symlink {
     name: "rfs_mdm_mpss_readonly_firmware_symlink",
     vendor: true,
     installed_location: "rfs/mdm/mpss/readonly/firmware",
-    symlink_target: "/vendor/firmware_mnt",
+    symlink_target: "/vendor/firmware-modem",
 }
 
 install_symlink {
@@ -399,7 +399,7 @@ install_symlink {
     name: "rfs_msm_mpss_readonly_firmware_symlink",
     vendor: true,
     installed_location: "rfs/msm/mpss/readonly/firmware",
-    symlink_target: "/vendor/firmware_mnt",
+    symlink_target: "/vendor/firmware-modem",
 }
 
 install_symlink {
